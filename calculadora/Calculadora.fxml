@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="368.0" prefWidth="320" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="calculadora.CalculadoraController">
+    <children>
+        <Button fx:id="noveButton" layoutX="34.0" layoutY="154.0" onAction="#noveButtonAction" prefHeight="36.0" prefWidth="52.0" text="9" />
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <Label layoutX="104.0" layoutY="14.0" prefHeight="17.0" prefWidth="110.0" text="Calculadora em Java" />
+      <TextField fx:id="telaTextField" alignment="CENTER_RIGHT" layoutX="30.0" layoutY="44.0" prefHeight="36.0" prefWidth="260.0">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </TextField>
+      <Button fx:id="seisButton" layoutX="34.0" layoutY="199.0" onAction="#seisButtonAction" prefHeight="36.0" prefWidth="52.0" text="6" />
+      <Button fx:id="umButton" layoutX="34.0" layoutY="245.0" onAction="#umButtonAction" prefHeight="36.0" prefWidth="52.0" text="1" />
+      <Button fx:id="doisButton" layoutX="97.0" layoutY="245.0" onAction="#doisButtonAction" prefHeight="36.0" prefWidth="52.0" text="2" />
+      <Button fx:id="cincoButton" layoutX="97.0" layoutY="199.0" onAction="#cincoButtonAction" prefHeight="36.0" prefWidth="52.0" text="5" />
+      <Button fx:id="oitoButton" layoutX="97.0" layoutY="154.0" onAction="#oitoButtonAction" prefHeight="36.0" prefWidth="52.0" text="8" />
+      <Button fx:id="multButton" layoutX="233.0" layoutY="154.0" onAction="#multButtonAction" prefHeight="36.0" prefWidth="52.0" text="*" />
+      <Button fx:id="divisaoButton" layoutX="233.0" layoutY="199.0" onAction="#divisaoButtonAction" prefHeight="36.0" prefWidth="52.0" text="/" />
+      <Button fx:id="somaButton" layoutX="233.0" layoutY="245.0" onAction="#somaButtonAction" prefHeight="84.0" prefWidth="52.0" text="+">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Button>
+      <Button fx:id="tresButton" layoutX="161.0" layoutY="245.0" onAction="#tresButtonAction" prefHeight="36.0" prefWidth="52.0" text="3" />
+      <Button fx:id="quatroButton" layoutX="161.0" layoutY="199.0" onAction="#quatroButtonAction" prefHeight="36.0" prefWidth="52.0" text="4" />
+      <Button fx:id="seteButton" layoutX="161.0" layoutY="154.0" onAction="#seteButtonAction" prefHeight="36.0" prefWidth="52.0" text="7" />
+      <Button fx:id="cleanButton" layoutX="34.0" layoutY="107.0" onAction="#cleanButtonAction" prefHeight="36.0" prefWidth="52.0" text="Clean">
+         <font>
+            <Font size="13.0" />
+         </font>
+      </Button>
+      <Button fx:id="factButton" layoutX="97.0" layoutY="107.0" onAction="#factButtonAction" prefHeight="36.0" prefWidth="52.0" text="!" textAlignment="CENTER">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="raizButton" layoutX="161.0" layoutY="107.0" onAction="#raizButtonAction" prefHeight="36.0" prefWidth="52.0" text="√">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Button>
+      <Button fx:id="menosButton" layoutX="233.0" layoutY="107.0" onAction="#menosButtonAction" prefHeight="36.0" prefWidth="52.0" text="-" />
+      <Button fx:id="igualButton" layoutX="161.0" layoutY="292.0" onAction="#igualButtonAction" prefHeight="36.0" prefWidth="52.0" text="=" />
+      <Button fx:id="pontoButton" layoutX="97.0" layoutY="292.0" onAction="#pontoButtonAction" prefHeight="36.0" prefWidth="52.0" text="." />
+      <Button fx:id="zeroButton" layoutX="34.0" layoutY="292.0" onAction="#zeroButtonAction" prefHeight="36.0" prefWidth="52.0" text="0" />
+    </children>
+</AnchorPane>
