@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="332.0" prefWidth="494.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jogo_da_velha.TabuleiroController">
+   <children>
+      <Button fx:id="btn00" layoutX="32.0" layoutY="31.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0">
+         <font>
+            <Font size="36.0" />
+         </font></Button>
+      <Button fx:id="btn01" layoutX="125.0" layoutY="31.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0">
+         <font>
+            <Font size="36.0" />
+         </font></Button>
+      <Button fx:id="btn10" layoutX="32.0" layoutY="122.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0">
+         <font>
+            <Font size="36.0" />
+         </font></Button>
+      <Button fx:id="btn11" layoutX="125.0" layoutY="122.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0">
+         <font>
+            <Font size="36.0" />
+         </font></Button>
+      <Button fx:id="btn02" layoutX="216.0" layoutY="31.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0">
+         <font>
+            <Font size="36.0" />
+         </font></Button>
+      <Button fx:id="btn12" layoutX="216.0" layoutY="122.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0">
+         <font>
+            <Font size="36.0" />
+         </font></Button>
+      <Button fx:id="btn20" layoutX="32.0" layoutY="214.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0">
+         <font>
+            <Font size="36.0" />
+         </font></Button>
+      <Button fx:id="btn21" layoutX="125.0" layoutY="214.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0">
+         <font>
+            <Font size="36.0" />
+         </font></Button>
+      <Button fx:id="btn22" layoutX="216.0" layoutY="214.0" mnemonicParsing="false" prefHeight="80.0" prefWidth="80.0">
+         <font>
+            <Font size="36.0" />
+         </font></Button>
+      <Label fx:id="placarLabel" layoutX="374.0" layoutY="31.0" prefHeight="36.0" prefWidth="61.0" text="Placar">
+         <font>
+            <Font size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="374.0" layoutY="86.0" prefHeight="42.0" prefWidth="41.0" text="X =" fx:id="xPointsLabel">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="oPointsLabel" layoutX="370.0" layoutY="144.0" prefHeight="42.0" prefWidth="48.0" text="O =">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Button fx:id="btnNewGame" layoutX="368.0" layoutY="229.0" mnemonicParsing="false" text="Novo Jogo" />
+      <Button fx:id="btnRestartGame" layoutX="357.0" layoutY="269.0" mnemonicParsing="false" text="Reiniciar Placar" />
+      <Label layoutX="422.0" layoutY="88.0" prefHeight="42.0" prefWidth="41.0" text="0" fx:id="xPlacar">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+      <Label fx:id="oPlacar" layoutX="422.0" layoutY="147.0" prefHeight="42.0" prefWidth="41.0" text="0">
+         <font>
+            <Font size="25.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
