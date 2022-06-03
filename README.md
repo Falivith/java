@@ -1,3 +1,5 @@
-# Java
+# OOP Java
 
-Atividades práticas de Orientação a Objetos em Java
+Algumas atividades práticas de programação orientação a objetos em Java.
+
+Some practical object-oriented programming activities in Java.
